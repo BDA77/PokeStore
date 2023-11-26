@@ -23,7 +23,7 @@ function News() {
                         </a>
                     </div>
                     <div className="carousel-item">
-                        <Link className="nav-link" to="/Catalogo">
+                        <Link className="nav-link" to="/catalogo">
                             <img src={News2} className="img-fluid rounded-4" alt="..." />
                         </Link>
                     </div>

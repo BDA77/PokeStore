@@ -14,7 +14,7 @@ function Inicio() {
             <br/>
         </section>
         <div className="text-center mb-3">
-            <Link className="nav-link" to="/Catalogo">
+            <Link className="nav-link" to="/catalogo">
                 <button type="button" className="btn btn-lg text-white btn-warning py-3 px-5">Accede AQUÍ a nuestro Catálogo</button>
             </Link>
         </div>
