@@ -41,12 +41,12 @@ function Nosotros() {
       </div>
       <br/>
       <div className='container-fluid mb-3'>
-        <h2 className='mb-3'>Nuestro propósito</h2>
+        <h2 className='mb-3 mx-2'>Nuestro propósito</h2>
         <p className='px-2'>Queremos encontrar el hogar ideal para cualquier tipo de Pokemon, ayudando a encontrar a los entrenadores con los pokemons que más deseen. Nuestro prinicpal objetivo es que los entrenadores de todo el mundo puedan tener un acceso seguro y confiable a los distintos pokemons de nuestro catálogo.</p>
       </div>
       <br/>
       <div className='container-fluid mb-4'>
-        <h2 className='mb-3'>Conoce nuestra historia</h2>
+        <h2 className='mb-3 mx-2'>Conoce nuestra historia</h2>
         <p className='px-2'>Somos un grupo de estudiantes que han desarrollado este proyecto desde Noviembre de 2023. En primera instancia pudimos conseguir y rescatar pokemons con el objetivo de que encuentren un hogar a un precio justo.</p>
         <p className='px-2'>Actualmente trabajamos para que cada vez exista una mayor variedad de pokemons en nuestra tienda y para que las funcionalidades y accesibilidad de este sitio web sea cada vez mejor, para que nuestros clientes y los pokemons tengan la mejor experiencia.</p>
       </div>
