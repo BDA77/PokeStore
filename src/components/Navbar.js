@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Logo from "../img/POKESTORE-7-11-2023.png";
+import React, { useState, useEffect } from 'react';
+import { Link, useHistory } from 'react-router-dom';
+import Logo from '../img/POKESTORE-LOGO.png';
 
 function Navbar({ cartItems }) {
   const cartItemsCount = cartItems.length;
 
   return (
     <div className="Navbar mb-5">
-      <nav className="navbar fixed-top bg-primary">
+      <nav className="navbar fixed-top bg-info">
         <div className="container-fluid">
           <div className="row">
             <div className="col">

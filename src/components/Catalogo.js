@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import precios from './Precios'; // Importa el archivo de precios
+import precios from './Precios';
 import { Link } from 'react-router-dom';
 import './Catalogo.css';
 
@@ -15,7 +15,7 @@ const Catalogo = ({ addToCart }) => {
   useEffect(() => {
     const fetchPokemonData = async () => {
       try {
-        const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=20');
+        const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=25');
         const results = response.data.results;
 
         const pokemonDetails = await Promise.all(
@@ -44,10 +44,10 @@ const Catalogo = ({ addToCart }) => {
   return (
     <div className="main-container m-5 pt-5">
       <h1 className='ml-2 mb-3'>Catálogo</h1>
-      <div className="search-bar">
+      <div className="search-bar mb-4">
         <input
           type="text"
-          placeholder="Search name, type..."
+          placeholder=" ¿Qué pokemon buscas?"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -59,7 +59,7 @@ const Catalogo = ({ addToCart }) => {
               <img src={pokemon.sprites.front_default} alt={pokemon.name} />
               <h3>{capitalizeFirstLetter(pokemon.name)}</h3>
             </Link>
-            <p>Precio: ${precios[pokemon.name]}</p> {/* Utiliza el precio del archivo de precios */}
+            <p>Precio: ${precios[pokemon.name]}</p>
             <div className='mb-2'>
               <button className="btn btn-primary" onClick={() => addToCart(pokemon)}>Agregar al carrito</button>
             </div>

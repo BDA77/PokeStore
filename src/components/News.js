@@ -1,7 +1,8 @@
 import React from "react";
-/* import News1 from "https://picsum.photos/id/238/300/500";
-import News2 from "https://picsum.photos/id/239/300/500";
-import News3 from "https://picsum.photos/id/237/300/500"; */
+import News1 from "../img/pokenews1.jpeg";
+import News2 from "../img/pokenews2.jpeg";
+import News3 from "../img/pokenews3.jpeg";
+import { Link } from "react-router-dom";
 
 function News() {
     return (
@@ -17,19 +18,19 @@ function News() {
                 </div>
                 <div className="carousel-inner rounded-4">
                     <div className="carousel-item active">
-                        <button className="btn p-0 rounded-4" data-bs-toggle="modal" data-bs-target="#descriptionModal1">
-                            <img src="https://picsum.photos/id/1/1400/500" className="img-fluid rounded-4" alt="..." />
-                        </button>
+                        <a href="https://www.pokemon.com/el/noticias-pokemon">
+                            <img src={News1} className="img-fluid rounded-4" alt="..." /> 
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <button className="btn p-0 rounded-4" data-bs-toggle="modal" data-bs-target="#descriptionModal2">
-                            <img src="https://picsum.photos/id/2/1400/500" className="img-fluid rounded-4" alt="..." />
-                        </button>
+                        <Link className="nav-link" to="/Catalogo">
+                            <img src={News3} className="img-fluid rounded-4" alt="..." />
+                        </Link>
                     </div>
                     <div className="carousel-item">
-                        <button className="btn p-0 rounded-4" data-bs-toggle="modal" data-bs-target="#descriptionModal3">
-                            <img src="https://picsum.photos/id/3/1400/500" className="img-fluid rounded-4" alt="..." />
-                        </button>
+                        <a href="https://pokemongolive.com/post/rising-shadows?hl=es#:~:text=El%20debut%20de%20las%20incursiones,ten%C3%A9is%20un%20poco%20de%20suerte!">
+                            <img src={News2} className="img-fluid rounded-4" alt="..." />
+                        </a>
                     </div>
                 </div>
                 <button className="carousel-control-prev btn-lg mx-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

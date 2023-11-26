@@ -1,27 +1,30 @@
-// precios.js
 const precios = {
-    bulbasaur: 49,
-    ivysaur: 28,
-    venusaur: 13,
-    charmander: 80,
-    charmeleon: 41,
-    charizard: 57,
-    squirtle: 94,
-    wartortle: 85,
-    blastoise: 13,
-    caterpie: 48,
-    metapod: 49,
-    butterfree: 85,
-    weedle: 47,
-    kakuna: 53,
-    beedrill: 20,
-    pidgey: 24,
-    pidgeotto: 61,
-    pidgeot: 85,
-    rattata: 12,
-    raticate: 66,
-    // Agrega más Pokémon y sus precios según lo necesites
-  };
+  bulbasaur: 17,
+  ivysaur: 32,
+  venusaur: 87,
+  charmander: 23,
+  charmeleon: 56,
+  charizard: 99,
+  squirtle: 25,
+  wartortle: 47,
+  blastoise: 94,
+  caterpie: 5,
+  metapod: 20,
+  butterfree: 57,
+  weedle: 12,
+  kakuna: 29,
+  beedrill: 77,
+  pidgey: 21,
+  pidgeotto: 67,
+  pidgeot: 90,
+  rattata: 11,
+  raticate: 34,
+  spearow: 13,
+  fearow: 13, 
+  ekans: 15,
+  arbok: 52,
+  pikachu: 28
+};
   
-  export default precios;
+export default precios;
   

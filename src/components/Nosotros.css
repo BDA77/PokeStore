@@ -1,0 +1,13 @@
+.nosotros-section{
+    -webkit-box-shadow: 0px 14px 32px 8px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 14px 32px 8px rgba(0,0,0,0.57);
+    box-shadow: 0px 14px 32px 8px rgba(0,0,0,0.57);
+}
+
+.nosotros-info {
+    font-size: 15px;
+}
+
+.nosotros-actual {
+    font-size: 12px;
+}
