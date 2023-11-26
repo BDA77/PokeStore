@@ -24,12 +24,12 @@ function News() {
                     </div>
                     <div className="carousel-item">
                         <Link className="nav-link" to="/Catalogo">
-                            <img src={News3} className="img-fluid rounded-4" alt="..." />
+                            <img src={News2} className="img-fluid rounded-4" alt="..." />
                         </Link>
                     </div>
                     <div className="carousel-item">
                         <a href="https://pokemongolive.com/post/rising-shadows?hl=es#:~:text=El%20debut%20de%20las%20incursiones,ten%C3%A9is%20un%20poco%20de%20suerte!">
-                            <img src={News2} className="img-fluid rounded-4" alt="..." />
+                            <img src={News3} className="img-fluid rounded-4" alt="..." />
                         </a>
                     </div>
                 </div>

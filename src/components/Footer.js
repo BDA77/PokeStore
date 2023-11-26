@@ -11,27 +11,27 @@ const Footer = () => {
             <div className="col p-1">
               <div className="row-sm">
                 <div className="row">
-                  <div className="col-md-1">
+                  <div className="col-sm-1">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                     </svg>
                   </div>
-                  <div className="col-md-8 pt-1 mx-1">
+                  <div className="col-sm-8 pt-1 mx-1">
                     <p>+56 2 1234 5678</p> 
                   </div>
                 </div>
               </div>
               <div className="row-sm pb-1">
                 <div className="row">
-                  <div className="col-md-1 pt-1">
+                  <div className="col-sm-1 pt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
                       <path d="M3 7l9 6l9 -6" />
                     </svg>
                   </div>
-                  <div className="col-md-8 pt-1 mx-2">
+                  <div className="col-sm-8 pt-1 mx-2">
                     <p>support@pokestore.com</p>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="col-md-4 px-5">
             <h4 className="mx-2">Nuestras Redes:</h4>
             <div className="row p-2">
-              <div className="col-lg-2 mx-2 pt-1">
+              <div className="col-sm-2 mx-2 pt-1">
                 <a href="https://www.instagram.com/"> 
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -51,7 +51,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </div> 
-              <div className="col-lg-2 mx-2 pt-1">
+              <div className="col-sm-2 mx-2 pt-1">
                 <a href="https://web.facebook.com/"> 
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -59,7 +59,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>  
-              <div className="col-lg-2 mx-2 pt-1">
+              <div className="col-sm-2 mx-2 pt-1">
                 <a href="https://twitter.com/?lang=es"> 
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
