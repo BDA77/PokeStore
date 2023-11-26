@@ -62,7 +62,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
           ))}
         </div>
         <br/>
-        <h5 className='my-4'>Total: ${totalPrice}</h5>
+        <h5 className='mb-4 mt-5'>Total: ${totalPrice}</h5>
         <Link to="https://www.webpay.cl/" className="btn btn-primary">Ir a pagar</Link>
       </div>
       )}
