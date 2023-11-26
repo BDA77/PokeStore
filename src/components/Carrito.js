@@ -13,20 +13,27 @@ const Carrito = ({ cartItems, removeFromCart }) => {
     <div className="cart mt-5 p-5">
       <h2 className='d-inline-block text-white p-3 mx-5 bg-warning rounded'>Carrito de compras</h2>
       <div className='mx-5 my-3'>
-        <Link to="/catalogo" className='nav-link d-flex align-items-center'>
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left-filled" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z" stroke-width="0" fill="currentColor" />
-          </svg>
-          <h6 className="ms-2 mb-0">Volver al catálogo</h6>
-        </Link>
+        <div className='row'>
+          <div className='col-md-2'>
+            <Link to="/catalogo" className='nav-link d-flex align-items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left-filled" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z" stroke-width="0" fill="currentColor" />
+              </svg>
+              <h6 className="ms-2 mb-0">Volver al catálogo</h6>
+            </Link>
+          </div>  
+        </div>
       </div>
+      <br/>
       {cartItems.length === 0 ? (
       <>
       <div className='my-5 h-100'>
-        <br/><br/>
-        <h4 className='text-center'>El carrito está vacío.</h4>
-        <br/><br/>
+        <div className='my-5'>
+          <br/><br/><br/><br/><br/><br/><br/>
+          <h4 className='text-center'>El carrito está vacío.</h4>
+          <br/><br/><br/><br/><br/><br/><br/>
+        </div>
       </div>
       </>
       ) : ( 
