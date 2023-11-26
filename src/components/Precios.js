@@ -20,7 +20,7 @@ const precios = {
   rattata: 11,
   raticate: 34,
   spearow: 13,
-  fearow: 13, 
+  fearow: 45, 
   ekans: 15,
   arbok: 52,
   pikachu: 28
