@@ -34,8 +34,9 @@ const PokemonDetalle = ({ addToCart }) => {
 
   return (
     <div className='mt-5 mx-3 pt-5'>
+      <br/>
       <h2 className='d-inline-block text-white p-3 mx-5 bg-warning rounded'>Información del producto</h2>
-      <div className='mx-5 my-3'>
+      <div className='mx-5 my-4'>
         <div className='row'>
           <div className='col-md-2'>
             <Link to="/catalogo" className='nav-link d-flex align-items-center'>
@@ -92,7 +93,8 @@ const PokemonDetalle = ({ addToCart }) => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-5 mb-4">
+      <br/>
+      <div className="text-center my-5">
         <button className='btn btn-lg btn-primary' onClick={handleAddToCart}>Añadir al carrito</button>
       </div>
       <br/>

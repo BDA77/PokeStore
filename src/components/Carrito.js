@@ -11,6 +11,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
 
   return (
     <div className="cart mt-5 p-5">
+      <br/>
       <h2 className='d-inline-block text-white p-3 mx-5 bg-warning rounded'>Carrito de compras</h2>
       <div className='mx-5 my-3'>
         <div className='row'>
@@ -38,7 +39,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
       </>
       ) : ( 
       <div className="container-fluid my-4 text-center">
-        <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
           {cartItems.map((item, index) => (
             <div key={index} className="col mb-1">
               <div className="card">
@@ -60,6 +61,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
             </div>
           ))}
         </div>
+        <br/>
         <h5 className='my-4'>Total: ${totalPrice}</h5>
         <Link to="https://www.webpay.cl/" className="btn btn-primary">Ir a pagar</Link>
       </div>
