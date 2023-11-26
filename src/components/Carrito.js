@@ -23,7 +23,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
       </div>
       {cartItems.length === 0 ? (
       <>
-      <div className='my-5'>
+      <div className='my-5 h-100'>
         <br/><br/>
         <h4 className='text-center'>El carrito está vacío.</h4>
         <br/><br/>
