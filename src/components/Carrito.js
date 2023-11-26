@@ -30,7 +30,7 @@ const Carrito = ({ cartItems, removeFromCart }) => {
       </div>
       </>
       ) : ( 
-      <div className="container my-4 text-center">
+      <div className="container-fluid my-4 text-center">
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {cartItems.map((item, index) => (
             <div key={index} className="col mb-1">
